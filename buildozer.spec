@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Bhavishya
+title = Jai Mahakal
 
 # (str) Package name
-package.name = myapp_beta
+package.name = bhavishya
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -29,7 +29,7 @@ source.include_exts = py,png,jpg,kv,atlas,ttf
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.2
+version = 0.1
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -37,7 +37,7 @@ version = 0.2
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0,kivymd==0.104.1
+requirements = python3,kivy,kivymd,webbrowser
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
